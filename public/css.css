@@ -1,0 +1,171 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(192, 186, 186);
+}
+
+.itensmenu{
+    background-color: gray;
+    margin: 10px;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.itensmenu a {
+    text-decoration: none; 
+    color: inherit; 
+    display: block;
+    padding: 5px;
+}
+
+.itensmenu a:hover {
+    background-color: lightblue; 
+    border-radius: 10px;
+}
+
+.apresentacaotexto{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 70%; /* Define a largura da área */
+    margin: 60px auto; /* Centraliza a área horizontalmente e adiciona margem superior/inferior */
+    background-color: rgb(192, 186, 186); 
+    padding: 0px; 
+    border-radius: 100px; 
+}
+.apresentacaotexto a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.apresentacaotexto a:hover {
+    background-color: lightblue;
+    border-radius: 5px;
+    
+}
+
+
+
+
+
+
+.fotosdesenvolvedores {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center; 
+    margin: 140px auto;
+    gap: 150px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 100px;
+    width: 90%; /* Define a largura como 80% da página */
+    max-width: 1200px;
+    box-sizing: border-box;
+    padding-top: 10px; /* Adiciona um pouco de espaço interno */
+    padding-bottom: 50px; /* Adiciona um pouco de espaço interno */
+    overflow: hidden;
+    background-color: rgb(192, 186, 186);
+    
+}
+
+.fotos {
+    display: flex;
+    flex-direction: column; /* Alinha a imagem e o texto verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    text-align: center; /* Centraliza o texto */
+}
+
+.fotos img {
+    margin-top: 20px; 
+    width: 300px; /* Define a largura da imagem */
+    height: auto; 
+    max-width: 100%;
+    object-fit: cover;/* Mantém a proporção da imagem */
+    border-radius: 10px;
+}
+
+.fotos h4 {
+    margin-top: 10px; /* Adiciona espaço entre a imagem e o texto */
+    font-family: 'Courier New', Courier, monospace;
+}
+    
+.fotos p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px; 
+    margin-top: -5px; 
+    
+}
+
+.botaoiniciar {
+    display: flex; /* Define o botão como um contêiner flex */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    position: absolute;
+    top: 50%; /* Move o botão para o meio da tela verticalmente */
+    left: 50%; /* Move o botão para o meio da tela horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para centralizar exatamente */
+}
+
+.menuaposclique {
+    background-color: rgb(192, 186, 186);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta para centralizar exatamente */
+    padding: 2px;
+    font-size: 1.5rem;
+}
+
+.esconder {
+    display: none; /* Garante que o elemento não será exibido */
+}
+
+/* Classe específica para o formulário de adicionar livro */
+.adicionarlivro {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    margin-top: 350px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.viewlivros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.deletarlivro {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    margin-top: 350px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+} 

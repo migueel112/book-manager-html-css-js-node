@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="css.css">
+        <style>
+            body {
+                background-image: url('livros.jpg');
+                background-size: cover; 
+                background-attachment: fixed;
+                
+            }
+        </style>
+    </head> 
+
+    <body style="background-color: lightgray">
+        <div class="menu">
+            <div class="itensmenu"> <a href="apresentacao.html">Apresentação</a></div>
+            <div class="itensmenu"> <a href="desenvolvedores.html">Desenvolvedores</a></div>
+            <div class="itensmenu"> <a href="software.html">Software</a></div>
+        </div>
+
+        <!-- Botão para iniciar o programa -->
+        <div class="botaoiniciar">
+           <button id="startButton" style="font-size: 20px; padding: 10px 20px; font-family: 'Courier New', Courier, monospace;">Iniciar Programa</button>
+        </div> 
+
+        <!-- Menu com opções -->
+<div id="menuAposClique" class="menuaposclique esconder">
+    <ul>
+        <li><button id="addBookButton">Adicionar um Livro</button></li>
+        <li><button id="viewBooksButton">Ver Livros Adicionados</button></li>
+        <li><button id="deleteBookButton">Excluir um Livro</button></li>
+        <li><button id="exitButton">Sair do Programa</button></li>
+    </ul>
+</div>
+
+<!-- Formulário para adicionar um livro -->
+<div id="addBookForm" class="esconder adicionarlivro">
+    <label for="bookName">Nome do Livro:</label>
+    <input type="text" id="bookName" name="bookName" required />
+    <p></p>
+    <label for="authorName">Nome do Autor:</label>
+    <input type="text" id="authorName" name="authorName" required />
+    <p></p>
+    <label for="releaseDate">Data de Lançamento:</label>
+    <input type="date" id="releaseDate" name="releaseDate" required />
+    <p></p>
+    <label for="editoraname">Nome da Editora:</label>
+    <input type="text" id="editoraname" name="editoraname" required />  REQUIRED FAZ O NEGOCIO TER QUE SER PREENCHIDO
+    <p></p>
+    <button id="salvarlivro">Salvar Livro</button>
+    <p></p>
+    <button id="VoltaraoMenuaddlivro">Voltar ao Menu</button>
+</div>
+
+<!-- Lista de livros -->
+<div id="viewBooksForm" class="viewlivros esconder">
+    <h3>Livros Adicionados:</h3>
+    <ul id="bookList"></ul>
+    <button id="VoltaraoMenuVerLivros">Voltar ao Menu</button>
+</div>
+
+<div id="deleteBookForm" class="deletarlivro esconder">
+    <label for="nomedeletar">Nome do Livro a Excluir:</label>
+    <input type="text" id="nomedeletar" name="nomedeletar" required />
+    <button id="confirmardeletar">Excluir Livro</button>
+    <button id="Voltaraomenudeletarlivro">Voltar ao Menu</button>
+</div>
+<script src="coisas.js"></script>
+    </body>
+</html>
