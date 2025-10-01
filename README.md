@@ -1,2 +1,23 @@
-# book-manager-html-css-js-node
-Sistema web para organização de livros em pequenas lojas ou bibliotecas, com front-end em HTML, CSS e JavaScript, e back-end em Node.js. Permite cadastro, listagem e remoção de livros, armazenando dados de forma segura. Interface simples e intuitiva, ideal para usuários sem experiência técnica.
+# 📚 Sistema Web para Organização de Livros
+
+Sistema web desenvolvido para ajudar na organização de livros em pequenas lojas ou bibliotecas. O sistema permite cadastrar, listar e remover livros, com dados como título, autor e ano de lançamento.
+
+## 🚀 Tecnologias
+
+**Front-end:**
+- HTML5
+- CSS3
+- JavaScript
+
+**Back-end:**
+- Node.js
+- Express 
+- MongoDB
+
+## 🎯 Funcionalidades
+
+- ✅ Cadastro de livros  
+- 📃 Listagem de livros  
+- ❌ Remoção de livros  
+- 🔐 Armazenamento seguro dos dados  
+- 🖥 Interface simples e responsiva
